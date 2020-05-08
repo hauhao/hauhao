@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hauhao.github.io/hauhao/</id>
+    <id>https://hauhao.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-08T07:17:06.808Z</updated>
+    <updated>2020-05-08T07:38:32.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://hauhao.github.io/hauhao/"/>
-    <link rel="self" href="https://hauhao.github.io/hauhao/atom.xml"/>
+    <link rel="alternate" href="https://hauhao.github.io"/>
+    <link rel="self" href="https://hauhao.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://hauhao.github.io/hauhao/images/avatar.png</logo>
-    <icon>https://hauhao.github.io/hauhao/favicon.ico</icon>
+    <logo>https://hauhao.github.io/images/avatar.png</logo>
+    <icon>https://hauhao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://hauhao.github.io/hauhao/post/hello-gridea/</id>
-        <link href="https://hauhao.github.io/hauhao/post/hello-gridea/">
+        <id>https://hauhao.github.io/post/hello-gridea/</id>
+        <link href="https://hauhao.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
