@@ -1,52 +1,169 @@
+
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>HauHao&#39;s Blog</title>
-<link rel="shortcut icon" href="https://hauhao.github.io/favicon.ico?v=1608954274862">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="且听风吟">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hauhao.github.io/favicon.ico?v=1608954467738">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://hauhao.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="HauHao&#39;s Blog - Atom Feed" href="https://hauhao.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="且听风吟" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://hauhao.github.io">
-  <img class="avatar" src="https://hauhao.github.io/images/avatar.png?v=1608954274862" alt="">
-  </a>
-  <h1 class="site-title">
-    HauHao&#39;s Blog
-  </h1>
-  <p class="site-description">
-    且听风吟
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://hauhao.github.io">
+        <img class="avatar" src="https://hauhao.github.io/images/avatar.png?v=1608954467738" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://hauhao.github.io">
+        <h1 class="site-title">HauHao&#39;s Blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://hauhao.github.io/post/jin-wen-yi-fu-xing-shi-qi-de-si-xiang-hun-luan-yu-dui-li-qing-xiang-yi-dan-ding-lesslessshen-qu-greatergreater-wei-li/">
+        <h2 class="post-title">近文艺复兴时期的思想混乱与对立倾向——以但丁《神曲》为例</h2>
+      </a>
+      <div class="post-abstract">
+        <p>HAUHAO<br>
+引言<br>
+恩格斯曾经评价说:“封建的中世纪的终结和现代资本主义纪元的开端, 是以一位大人物为标志的, 这位人物就是意大利人但丁, 他是中世纪的最后一位诗人, 同时又是新时代的最初一位诗人”。但丁站在时代风云变换的节点，在大变革到来之前，呼时代之先声。在那个时代，天主教因赎罪券变得越发臭名昭著，王权和教权的争夺仍未停息，十字军东征带来了阿拉伯文化，资本主义的新势力在暗流涌动，压抑的旧思想和新思想之间的对立在缓缓展开。在这样的时代背景下，但丁写下了文艺复兴的先驱之作《神圣的喜剧》（又名《神曲》）。《神曲》奠定了理性主义的思想基石，并开创了人文主义的未来。</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-12-26</span>
+        
+      </div>
+    </div>
+    
+      <a href="https://hauhao.github.io/post/jin-wen-yi-fu-xing-shi-qi-de-si-xiang-hun-luan-yu-dui-li-qing-xiang-yi-dan-ding-lesslessshen-qu-greatergreater-wei-li/">
+        <div class="feature-container" style="background-image: url('https://s3.ax1x.com/2020/12/26/rfqT9x.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://hauhao.github.io/post/wu-cong-shuo-qi/">
+        <h2 class="post-title">无从说起</h2>
+      </a>
+      <div class="post-abstract">
+        <p>无从说起<br>
+一切都说不起</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-11-28</span>
+        
+      </div>
+    </div>
+    
+      <a href="https://hauhao.github.io/post/wu-cong-shuo-qi/">
+        <div class="feature-container" style="background-image: url('https://s3.ax1x.com/2020/12/26/rfq1AA.png')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://hauhao.github.io/post/hello-world/">
+        <h2 class="post-title">Hello World</h2>
+      </a>
+      <div class="post-abstract">
+        <p>#你好世界!<br>
+2020年5月14日，皓浩的博客正式开始的第一天</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-05-14</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://hauhao.github.io/tag/r_Ny5yus6/">
+                文章
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://hauhao.github.io/post/hello-world/">
+        <div class="feature-container" style="background-image: url('https://s1.ax1x.com/2020/05/15/YrJDde.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">且听风吟</div>
   <div class="social-container">
     
       
@@ -60,105 +177,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hauhao.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://hauhao.github.io/post/jin-wen-yi-fu-xing-shi-qi-de-si-xiang-hun-luan-yu-dui-li-qing-xiang-yi-dan-ding-lesslessshen-qu-greatergreater-wei-li/">
-        <h2 class="post-title">近文艺复兴时期的思想混乱与对立倾向——以但丁《神曲》为例</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-12-26
-        </span>
-        <span>
-          8 min read
-        </span>
-        
-      </div>
-      
-        <a href="https://hauhao.github.io/post/jin-wen-yi-fu-xing-shi-qi-de-si-xiang-hun-luan-yu-dui-li-qing-xiang-yi-dan-ding-lesslessshen-qu-greatergreater-wei-li/" class="post-feature-image" style="background-image: url('https://s3.ax1x.com/2020/12/26/rfqT9x.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>HAUHAO<br>
-引言<br>
-恩格斯曾经评价说:“封建的中世纪的终结和现代资本主义纪元的开端, 是以一位大人物为标志的, 这位人物就是意大利人但丁, 他是中世纪的最后一位诗人, 同时又是新时代的最初一位诗人”。但丁站在时代风云变换的节点，在大变革到来之前，呼时代之先声。在那个时代，天主教因赎罪券变得越发臭名昭著，王权和教权的争夺仍未停息，十字军东征带来了阿拉伯文化，资本主义的新势力在暗流涌动，压抑的旧思想和新思想之间的对立在缓缓展开。在这样的时代背景下，但丁写下了文艺复兴的先驱之作《神圣的喜剧》（又名《神曲》）。《神曲》奠定了理性主义的思想基石，并开创了人文主义的未来。</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://hauhao.github.io/post/wu-cong-shuo-qi/">
-        <h2 class="post-title">无从说起</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-11-28
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-      </div>
-      
-        <a href="https://hauhao.github.io/post/wu-cong-shuo-qi/" class="post-feature-image" style="background-image: url('https://s3.ax1x.com/2020/12/26/rfq1AA.png')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>无从说起<br>
-一切都说不起</p>
-
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://hauhao.github.io/post/hello-world/">
-        <h2 class="post-title">Hello World</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-14
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://hauhao.github.io/tag/r_Ny5yus6/" class="post-tag">
-            # 文章
-          </a>
-        
-      </div>
-      
-        <a href="https://hauhao.github.io/post/hello-world/" class="post-feature-image" style="background-image: url('https://s1.ax1x.com/2020/05/15/YrJDde.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>#你好世界!<br>
-2020年5月14日，皓浩的博客正式开始的第一天</p>
-
-      </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://hauhao.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
